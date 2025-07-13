@@ -2,7 +2,7 @@
 
 This directory contains GitHub Copilot artifacts designed to help engineers implement DataOps best practices in Microsoft data platform projects. These artifacts leverage the patterns and examples from the samples in this repository to provide comprehensive guidance and accelerate development.
 
-## 🏗️ Available Platforms
+## Available Platforms
 
 ### Microsoft Fabric
 DataOps artifacts for Microsoft Fabric projects implementing medallion architecture, CI/CD, and modern data engineering practices.
@@ -10,9 +10,9 @@ DataOps artifacts for Microsoft Fabric projects implementing medallion architect
 ### Azure Databricks
 DataOps artifacts for Azure Databricks projects with Unity Catalog, medallion architecture, comprehensive CI/CD pipelines, and enterprise data lakehouse patterns based on the proven parking sensors implementation.
 
-## 📋 Available Artifacts
+## Available Artifacts
 
-### 🔷 Microsoft Fabric (`/fabric/`)
+### Microsoft Fabric (`/fabric/`)
 
 | Artifact | Purpose | Type |
 |----------|---------|------|
@@ -25,7 +25,7 @@ DataOps artifacts for Azure Databricks projects with Unity Catalog, medallion ar
 | `fabric-troubleshooting-prompt.md` | Troubleshooting assistant for common issues | Prompt |
 | `fabric-best-practices-checklist.md` | Comprehensive best practices checklist | Checklist |
 
-### 🧱 Azure Databricks (`/databricks/`)
+### Azure Databricks (`/databricks/`)
 
 | Artifact | Purpose | Type |
 |----------|---------|------|
@@ -38,7 +38,7 @@ DataOps artifacts for Azure Databricks projects with Unity Catalog, medallion ar
 | `databricks-troubleshooting-prompt.md` | Troubleshooting assistant for Databricks issues | Prompt |
 | `databricks-best-practices-checklist.md` | Comprehensive Databricks best practices checklist | Checklist |
 
-## 🚀 How to Use These Artifacts in Your Project
+## How to Use These Artifacts in Your Project
 
 ### Step 1: Choose Your Platform and Copy Artifacts
 
@@ -113,7 +113,7 @@ DataOps artifacts for Azure Databricks projects with Unity Catalog, medallion ar
 
 ### Step 3: Leverage Platform-Specific Artifacts
 
-#### 🔷 **Microsoft Fabric Workflows**
+#### **Microsoft Fabric Workflows**
 
 **For New Fabric Project Setup:**
 ```
@@ -157,22 +157,22 @@ DataOps artifacts for Azure Databricks projects with Unity Catalog, medallion ar
 @workspace Using .copilot/databricks-medallion-prompt.md, help me implement a medallion architecture with Unity Catalog for processing [describe your data]
 ```
 
-#### 🧪 **Testing Strategy (Both Platforms)**
+#### **Testing Strategy (Both Platforms)**
 ```
 @workspace Following .copilot/[platform]-testing-instructions.md, help me implement a comprehensive testing strategy for my [platform] project
 ```
 
-#### 🔧 **Troubleshooting (Both Platforms)**
+#### **Troubleshooting (Both Platforms)**
 ```
 @workspace I'm experiencing [describe issue]. Use .copilot/[platform]-troubleshooting-prompt.md to help me diagnose and resolve this problem
 ```
 
-#### ✅ **Best Practices Review (Both Platforms)**
+#### **Best Practices Review (Both Platforms)**
 ```
 @workspace Review my [platform] project against the checklist in .copilot/[platform]-best-practices-checklist.md and identify areas for improvement
 ```
 
-## 💡 Pro Tips for Maximum Effectiveness
+## Pro Tips for Maximum Effectiveness
 
 ### 1. **Combine Artifacts**
 Use multiple artifacts together for comprehensive guidance:
@@ -199,7 +199,7 @@ Modify the artifacts to include:
 - Incorporate new Fabric features and capabilities
 - Share improvements with your team
 
-## 🎯 Common Use Cases
+## Common Use Cases
 
 ### Starting a New Data Platform Project
 
@@ -257,17 +257,17 @@ cp -r /path/to/modern-data-warehouse-dataops/.copilot/databricks .copilot/
 @workspace Review my current data architecture against .copilot/databricks-medallion-prompt.md and .copilot/databricks-best-practices-checklist.md to identify improvements for migrating from Fabric to Databricks
 ```
 
-## 📚 Learning Resources
+## Learning Resources
 
 To maximize the value of these artifacts, familiarize yourself with the reference implementations in this repository:
 
-### 🔷 **Microsoft Fabric Samples**
+### **Microsoft Fabric Samples**
 - **`/fabric/fabric_dataops_sample/`** - Complete end-to-end DataOps implementation
 - **`/fabric/fabric_ci_cd/`** - CI/CD pipeline patterns and configurations
 - **`/fabric/fabric_cicd_gitlab/`** - GitLab-specific CI/CD examples
 - **`/fabric/feature_engineering_on_fabric/`** - Advanced data engineering patterns
 
-### 🧱 **Azure Databricks Samples**
+### **Azure Databricks Samples**
 - **`/databricks/parking_sensors/`** - Complete end-to-end DataOps implementation with medallion architecture and Unity Catalog
 - **`/databricks/parking_sensors/infrastructure/`** - Bicep infrastructure patterns for Databricks and Unity Catalog
 - **`/databricks/parking_sensors/devops/`** - Azure DevOps CI/CD pipeline configurations with multi-stage deployment
@@ -275,7 +275,7 @@ To maximize the value of these artifacts, familiarize yourself with the referenc
 - **`/databricks/parking_sensors/tests/`** - Integration testing framework for data pipelines and Great Expectations validation
 - **`/databricks/parking_sensors/databricks/`** - Notebook organization and Unity Catalog configuration patterns
 
-## 🤝 Contributing
+## Contributing
 
 If you develop additional artifacts or improvements:
 
@@ -284,7 +284,7 @@ If you develop additional artifacts or improvements:
 3. Follow the same naming and structure conventions
 4. Submit pull requests to share with the community
 
-## 📞 Support
+## Support
 
 For questions about using these artifacts:
 - Reference the original sample projects in `/fabric/`
@@ -293,6 +293,6 @@ For questions about using these artifacts:
 
 ---
 
-**Happy Engineering!** 🚀
+**Happy Engineering!**
 
 These artifacts are designed to make GitHub Copilot more effective at helping you implement robust DataOps practices in your Microsoft data platform projects. Whether you're building on Fabric or Databricks, use these as starting points and customize them to fit your specific needs and organizational requirements.
