@@ -135,7 +135,7 @@ DataOps artifacts for Azure Databricks projects with Unity Catalog, medallion ar
 @workspace Using .copilot/fabric-medallion-prompt.md, help me implement a medallion architecture for my data pipeline that processes [describe your data]
 ```
 
-#### � **Azure Databricks Workflows**
+#### **Azure Databricks Workflows**
 
 **For New Databricks Project Setup:**
 ```
@@ -287,9 +287,9 @@ If you develop additional artifacts or improvements:
 ## Support
 
 For questions about using these artifacts:
-- Reference the original sample projects in `/fabric/`
-- Check the troubleshooting guide in `fabric-troubleshooting-prompt.md`
-- Review the Fabric documentation links in the instruction files
+- Reference the original sample projects in `/fabric/` and `/databricks/`
+- Check the troubleshooting guide in `fabric-troubleshooting-prompt.md` and `databricks-troubleshooting-prompt.md`
+- Review the documentation links in the instruction files
 
 ---
 
